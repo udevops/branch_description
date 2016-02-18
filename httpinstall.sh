@@ -1,6 +1,8 @@
 #!bin/bash
 yum install httpd
 service httpd start
-
-yum install telnet
-mkdir /tmp/telnet
+#remvoed telnet
+#yum install telnet
+yum install ssh
+service sshd start
+mkdir /tmp/ssh
